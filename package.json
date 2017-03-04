@@ -1,0 +1,49 @@
+{
+  "name": "word2num-cli",
+  "version": "0.1.0",
+  "description": "`word2num` for the command line",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "bin": {
+    "word2num": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yatharthk/word2num-cli.git"
+  },
+  "keywords": [
+    "word2num",
+    "cli",
+    "cli-app",
+    "numbers",
+    "number",
+    "words",
+    "text-to-number",
+    "word-to-number",
+    "int",
+    "conversion"
+  ],
+  "author": "Yatharth Khatri <yatharth01@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yatharthk/word2num-cli/issues"
+  },
+  "homepage": "https://github.com/yatharthk/word2num-cli#readme",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "execa": "^0.6.0",
+    "xo": "^0.17.1"
+  },
+  "dependencies": {
+    "meow": "^3.7.0",
+    "word2num": "^0.1.1"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  }
+}
